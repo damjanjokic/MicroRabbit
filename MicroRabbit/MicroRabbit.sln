@@ -47,13 +47,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{13D78547-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E8938813-43C0-4361-B401-62ED0B446C46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Api", "MicroRabbit.Transfer.Api\MicroRabbit.Transfer.Api.csproj", "{96F48E16-D137-4C21-B930-BE03812EE7AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Api", "MicroRabbit.Transfer.Api\MicroRabbit.Transfer.Api.csproj", "{96F48E16-D137-4C21-B930-BE03812EE7AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Application", "MicroRabbit.Transfer.Application\MicroRabbit.Transfer.Application.csproj", "{56058052-220C-459D-B866-41262C8CECAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Application", "MicroRabbit.Transfer.Application\MicroRabbit.Transfer.Application.csproj", "{56058052-220C-459D-B866-41262C8CECAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Domain", "MicroRabbit.Transfer.Domain\MicroRabbit.Transfer.Domain.csproj", "{81439ED6-3793-449A-9AA9-E32745C14A65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Domain", "MicroRabbit.Transfer.Domain\MicroRabbit.Transfer.Domain.csproj", "{81439ED6-3793-449A-9AA9-E32745C14A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Data", "MicroRabbit.Transfer.Data\MicroRabbit.Transfer.Data.csproj", "{B87ECD73-E344-48A2-B95A-373D368B8B89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Data", "MicroRabbit.Transfer.Data\MicroRabbit.Transfer.Data.csproj", "{B87ECD73-E344-48A2-B95A-373D368B8B89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Context", "Context", "{4ED8A431-F336-44F4-AF5A-1E801DA83F32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{1FDC6A3A-0209-444E-84DE-915A2987BE2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +135,8 @@ Global
 		{56058052-220C-459D-B866-41262C8CECAE} = {17E2A0C7-E005-4997-8907-6F627EC411B9}
 		{81439ED6-3793-449A-9AA9-E32745C14A65} = {E8938813-43C0-4361-B401-62ED0B446C46}
 		{B87ECD73-E344-48A2-B95A-373D368B8B89} = {13D78547-9BEB-4CDB-8707-75304F8D8267}
+		{4ED8A431-F336-44F4-AF5A-1E801DA83F32} = {13D78547-9BEB-4CDB-8707-75304F8D8267}
+		{1FDC6A3A-0209-444E-84DE-915A2987BE2C} = {13D78547-9BEB-4CDB-8707-75304F8D8267}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB4B2A2D-766D-472F-9250-F367D83DC85A}
